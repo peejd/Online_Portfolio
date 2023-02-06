@@ -104,6 +104,7 @@ header h2 {
     color:rgb(137, 169, 213);
     width: 150px;
     text-align: right;
+    text-shadow: 0 0 10px rgb(2, 27, 75);
 }
 
 /* ---- ARTICLES / CHILD CONTAINERs */
@@ -133,11 +134,11 @@ header h2 {
 
 /* ---- WORK CARDS ----- */
 .work-card {
-
     display: flex;
     align-items: center;
     min-height: 100px;
     position: relative;
+    min-width: 120px;
 }
 
 /* --- IMAGE LINKS WITHIN WORK CARDS ------ */
@@ -200,6 +201,11 @@ header h2 {
 /* ---- MEDIA QUERY CHANGES TOP NAV BUTTONS FROM HORIZ TO VERT BELOW 560 PIXELS --------- */
 @media (max-width: 560px) {
     header nav {
+        flex-direction: column;
+    }
+}
+@media (max-width: 800px) {
+    .work-items {
         flex-direction: column;
     }
 }
