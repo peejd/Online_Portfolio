@@ -37,7 +37,9 @@ All other images on the site were taken or created by myself.
 In the course of building this webpage, I referenced the following helpful websites for coding syntax guidance:
 
 https://www.w3schools.com/
+
 https://developer.mozilla.org/en-US/docs/Web
+
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 And finally, a special thank you to Moses Nester and Daniel Ringernbach for their sage input in helping me find solutions for layout specifics for this webpage.
