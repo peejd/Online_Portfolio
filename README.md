@@ -1,106 +1,66 @@
-# 02 Advanced CSS: Portfolio
-
-## Your Task
-
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
-
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
-
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
+# Philip Davidian Online Portfolio
 
 
-## User Story
+## Description
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+This Portfolio webpage was created as an assignment for the Coding Bootcamp at UNC Chapel Hill.
+It is a work in progress, but ultimately is intended to be used as a platform to showcase my Web Development work, as well as other works and involvements that I am proud of and want to share with acquaintances and potential employers. 
 
-
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+In building this page, I put into practice newly attained understanding of semantic HTML, Git version control and deployment, and several CSS styling proficiencies, including Flexbox, pseudo-classes, and media queries.
 
 
-## Mock-Up
+## Usage
 
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+To access and load this webpage, simply visit the following URL from any contemporary web browser on your computer or mobile device:
 
 
-## Grading Requirements
+## Preview
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+The following screenshots show a split preview of the webpage in a standard computer browser window:
 
-This Challenge is graded based on the following criteria: 
+![Portfolio Preview A](./Assets/Images/PortfolioPreviewA.png)
+![Portfolio Preview B](./Assets/Images/PortfolioPreviewB.png)
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria.
+## Credits
 
-### Deployment: 32%
+This page was built using HTML and CSS techniques I have been learning through the UNC Coding Bootcamp.
 
-* Application deployed at live URL.
+The background image was taken by photographer Ralph Eames and is used here with his express permission.
 
-* Application loads with no errors.
+The Tiny House image in the work section is the intellectual property of Nanostead LLC, a general contractor in Marshall NC for which I worked and built houses such as those pictured on the linked website. This image was also used with permission from that company's owner, Jeramy Stauffer.
 
-* Application GitHub URL submitted.
+All other images on the site were taken or created by myself.
 
-* GitHub repository contains application code.
+In the course of building this webpage, I referenced the following helpful websites for coding syntax guidance:
 
-### Application Quality: 15%
+https://www.w3schools.com/
+https://developer.mozilla.org/en-US/docs/Web
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+And finally, a special thank you to Moses Nester and Daniel Ringernbach for their sage input in helping me find solutions for layout specifics for this webpage.
 
-### Repository Quality: 13%
 
-* Repository has a unique name.
+## License
 
-* Repository follows best practices for file structure and naming conventions.
+MIT License
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+Copyright (c) 2023 Philip J. Davidian
 
-* Repository contains multiple descriptive commit messages.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
