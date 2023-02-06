@@ -13,6 +13,8 @@ In building this page, I put into practice newly attained understanding of seman
 
 To access and load this webpage, simply visit the following URL from any contemporary web browser on your computer or mobile device:
 
+https://peejd.github.io/Online_Portfolio/
+
 
 ## Preview
 
